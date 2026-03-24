@@ -1,0 +1,26 @@
+[
+  {
+    "issue": "High uplink packet loss",
+    "symptoms": ["low CQI", "high BLER", "HARQ retransmissions"],
+    "cause": "Uplink interference",
+    "resolution": "Reduce interference, optimize power control"
+  },
+  {
+    "issue": "Low throughput LTE",
+    "symptoms": ["low SINR", "high congestion"],
+    "cause": "Network congestion",
+    "resolution": "Load balancing, increase bandwidth"
+  },
+  {
+    "issue": "Call drops",
+    "symptoms": ["low RSRP", "handover failures"],
+    "cause": "Poor signal strength",
+    "resolution": "Improve coverage, adjust antenna tilt"
+  },
+  {
+    "issue": "High latency",
+    "symptoms": ["queue delay", "buffering"],
+    "cause": "Core network congestion",
+    "resolution": "Optimize routing, increase capacity"
+  }
+]
